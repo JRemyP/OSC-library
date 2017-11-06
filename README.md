@@ -7,7 +7,7 @@ You must know how OSC works.
 This library is work in progress.
 
 ## Installation
-Add all files respectly in ../microchip/harmony/V2.04/framework/tcpip
+Add all files in tcpip folder respectly in ../microchip/harmony/V2.04/framework/tcpip
 
 ## Create a new project
 In MPLAB, make a new harmony project. 
