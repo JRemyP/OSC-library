@@ -30,7 +30,9 @@ var2=10000;
 char* msg[12]="Hello World";
 
 TCPIP_UDP_OSC_AddPath(udpSocket, "/MyIntergers");
+
 /*add types*/
+
 TCPIP_UDP_OSC_AddTypeInt32(udpSocket);
 
 TCPIP_UDP_OSC_AddTypeInt32(udpSocket);
@@ -40,6 +42,7 @@ TCPIP_UDP_OSC_AddTypeString(udpSocket);
 TCPIP_UDP_OSC_EndType(udpSocket);
 
 /*add values*/
+
 TCPIP_UDP_OSC_AddInt32(udpSocket, var1);
 
 TCPIP_UDP_OSC_AddInt32(udpSocket, var2);
@@ -49,6 +52,7 @@ TCPIP_UDP_OSC_AddString(udpSocket, msg);
 TCPIP_UDP_OSC_EndData(udpSocket);
 
 /*send data*/
+
 TCPIP_UDP_OSC_Flush(udpSocket);
 
 ## Prototypes
